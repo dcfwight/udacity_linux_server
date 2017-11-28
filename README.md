@@ -6,14 +6,14 @@ The code for the origional catalog app project can be seen on my github [here](h
 
 Created by Doug Wight - dcfwight@gmail.com
 
-##IP Address of server:
+## IP Address of server:
 [34.241.100.161](http://34.241.100.161)
 
-##Summary of software installed
+## Summary of software installed
 Apache webserver using Flask framework and bootstrap formatting.
 Data is save to a Postgresql database on the server.
 
-##Configurations made
+## Configurations made
 1. Root access disabled
 1. Superuser called 'grader' added
 1. Postgresql user called 'catalog' added, with password 'catalog'
@@ -22,7 +22,7 @@ Data is save to a Postgresql database on the server.
 1. Enabled firewall to restrict ports to 2200 for ssh, 80 for webservice, 123 for NTP. All others should be blocked.
 1. The ssh port is 2200 - a non-default port. The normal port (22) has been disabled.
 
-##Login instructions
+## Login instructions
 1. Save the private rsa key that is pasted into the submission notes to a local file
 1. Enter the following command in a terminal to gain access to the ubuntu server:
 
@@ -30,7 +30,7 @@ Data is save to a Postgresql database on the server.
 `ssh grader@34.21.100.161 -p 2200 -i ~PATH-TO-SAVED-PRIVATE-RSA-KEY`
 
 
-##Third party resources used
+## Third party resources used
 Many!!! Particularly Udacity forum posts and links from there.
 Some of these included:
 
